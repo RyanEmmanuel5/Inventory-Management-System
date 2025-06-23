@@ -1,0 +1,70 @@
+div.Header{
+    width: 100%;
+    height: 10px;
+    background: #3a5347;
+}
+div.Banner{
+    background-image: url(../images1/BG2.png);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 125px;
+}
+div.HomePageContainer{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+div.BannerHeader h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Calibri;
+    margin-bottom: -30px;
+}
+p.BannerTagline{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Calibri;  
+    color: #1a8cb6;
+    margin-bottom: 0px;
+}
+div.BannerIcons{
+    margin-top: 5px; 
+}
+div.BannerIcons a{
+    font-size: 12px;
+    padding: 7px;
+    background: rgba(0, 0, 0, 5);
+    color: #e9eae0;
+    border-radius: 50%;
+    display: inline-block;
+}
+div.BannerIcons a:hover{
+    color: #e9eae0;
+    font-size: 16px;
+    background: #1a8cb6;
+    transition: .5s all;
+}
+div.HomePageFeatures{
+    display: flex;
+    gap: 100px;
+    flex-direction: row;
+    padding: 30px 0px;
+}
+div.HomePageF1{
+    padding: 10px 75px;
+    text-align: center;
+}
+div.HomePageF1 span.FeatureIcon{
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 5);
+}
+div.HomePageF1 h3.FeatureTitle{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Calibri;
+}
+
+

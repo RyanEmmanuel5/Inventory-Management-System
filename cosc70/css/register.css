@@ -1,0 +1,67 @@
+.Regbody {
+    font-family: calibri;
+    font-weight: bold;
+    background-image: url(../images1/BG1.png);
+    background-size: cover;
+    padding: 20px;
+    padding-top: 60px;
+}
+
+#register_form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f7;
+    padding: 20px;
+    font-size: 14px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    border: 3px solid #ffd770;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border: 2px solid #ffd770;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 12px;
+}
+
+span.error-message {
+    color: red;
+}
+
+#Reg_Btn {
+    font-family: calibri;
+    font-weight: bold;
+    background-color: #7d9970;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#Reg_Btn:hover {
+    background-color: #a2b089;
+}
+
+.name_error {
+    margin-bottom: 10px;
+}
+.success-message {
+    color: pink;
+    font-size: 16px;
+    font-family: calibri;
+}
